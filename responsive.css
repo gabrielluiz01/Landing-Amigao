@@ -1,0 +1,31 @@
+@media(max-width: 768px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        height: 88vh;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background-color: #00B77A;
+    }
+    .menu-link, .menu-link-home{
+        z-index: 99;
+        color: #FFF;
+        font-size: 25px;
+    }
+    .patinhas-menu{
+        display: none;
+    }
+    .menu-hamburguer{
+        display: block;
+    }
+}
+@media(max-width: 425px){
+    .header-block{
+        padding: 1rem;
+    }
+    .container-adopt{
+        background-position: left;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link re="stylesheet" href="https://use.typekit.net/eqk2gym.css">
+	<title>Amigão</title>
+</head>
+<body>
+	<header>
+		<div class="header-block">
+			
+			<span class="block-logo">
+				<h1 class="logo-title">Amigão</h1>
+				<img src="assets/patinhas.svg" class="logo-image">
+			</span>
+			<p class="menu-hamburguer" onclick="openMenu()"> Menu &#9776;</p>
+			<img src="assets/fechar.svg" onclick="closeMenu()" class="button-exit">
+			<nav class="menu">
+				<a href="" class="menu-link-home">
+					Home
+					<img src="assets/patinhas.svg" class="patinhas-menu">
+				</a>
+				<a href="" class="menu-link">
+					Sobre
+				</a>
+				<a href="" class="menu-link">
+					Adote
+				</a>
+				<a href="" class="menu-link">
+					Seja voluntário
+				</a>
+			</nav>
+		</div>
+		<section class="container-adopt">
+			<div class="overlay"></div>
+			<div class="block-info">
+				<img src="assets/facebook-white.svg" class="images-sociais">
+				<img src="assets/medium-white.svg" class="images-sociais">
+				<img src="assets/instagram-white.svg" class="images-sociais">
+				<span class="line"></span>
+				<p class="email-contact">amigão@email.com</p>
+			</div>
+			<div class="block-adopt">
+				<h1 class="block-adopt-title">Adote um amigo !</h1>
+				<p class="block-adopt-text">Ddoggo ipsum very good spot floofs long water shoob waggy wags blep big ol pupper.</p>
+				<span class="span-buttons">
+					<button class="button-donation">Fazer doação</button>
+					<button class="button-adopt" onclick="openModal()">Adotar um cachorrinho</button>
+				</span>
+			</div>
+		</section>
+	</header>
+	<section class="overlayModal">
+		<div class="modal-adopt">
+			<span class="block-button-exit">
+				<img src="assets/fechar.svg" class="button-exit-modal" onclick="closeModal()">
+			</span>
+			<div class="block-info-dog">
+				<div class="block-dog-modal">
+					<img src="assets/1.jpg" alt="cachorrinho-Luna" class="image-dog-modal">
+					<p class="name-dog-modal">Luna - 5 meses</p>
+				</div>
+				<div class="block-info-modal">
+					<h1 class="info-modal-title">Pronto para ter um novo amiguinho?</h1>
+					<p class="info-modal-text">Antes de levar a Luna para seu novo lar, precisamos saber alguma informações sobre você.</p>
+				</div>
+			</div>
+
+			<form  class="form-modal">
+				<span class="span-input">
+					<input type="text" class="input-modal">
+					<input type="text" class="input-modal-year">
+				</span>
+				<input type="email" class="input-modal-email">
+				<span class="span-buttons-modal">
+					<p>Possui algum animal?</p>
+					<button>Sim</button>
+					<button>Não</button>
+				</span>
+			</form>
+			<button class="button-adopt-modal" onclick="changeModal()">Adotar</button>
+
+			</div>
+
+			<div class="modal-obrigado">
+				<span class="block-button-exit">
+					<img src="assets/fechar.svg" class="button-exit-modal" onclick="closeModal()">
+				</span>
+				<div class="block-obrigado">
+					<h1 class="block-obrigado-title">Obrigado!</h1>
+					<p class="block-obrigado-text">Recebemos a sua inscrição!</p>
+					<p class="block-obrigado-text">Vamos analisar e entraremos em contato através do email enviado pelo formulário.</p>
+				</div>
+				<button class="button-adopt-modal" onclick="closeModal()">Voltar para home</button>
+		</div>
+
+
+	</section>
+	<main></main>
+	<footer></footer>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Urbane Rounded, Demi Bold;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+.header-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 4rem;
+}
+.block-logo{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.logo-title{
+    font-size: 35px;
+    color: #00CA88;
+}
+.menu-hamburguer{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #00ca88;
+    font-weight: 600;
+    display: none;
+}
+.button-exit{
+    display: none;
+}
+.menu{
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-link{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #00CA88;
+}
+.menu-link-home{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: #00CA88;
+}
+.container-adopt{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 90vh;
+    background-image: url(assets/7.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.overlay{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    background: #00b77a4d;
+}
+.block-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    padding: 1rem 0;
+}
+.images-sociais{
+    z-index: 1;
+}
+.line{
+    width: 2px;
+    background: #FFF;
+    height: 15vh;
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+.email-contact{
+    transform: rotate(270deg);
+    font-size: 18px;
+    color: #FFf;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+.block-adopt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 50vh;
+}
+.block-adopt-title{
+    font-size: 60px;
+    color: #FFF;
+    z-index: 1;
+}
+.block-adopt-text{
+    color: #FFF;
+    z-index: 1;
+    width: 45%;
+    text-align: center;
+    font-size: 20px;
+}
+.span-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button-donation{
+    width: 180px;
+    height: 3.5rem;
+    border-radius: 50px;
+    border: none;
+    background: #00CA88;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 2rem;
+    z-index: 1;
+    cursor: pointer;
+}
+.button-adopt{
+    width: 230px;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    background: #FFF;
+    color: #00CA88;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 2rem;
+    z-index: 1;
+    cursor: pointer;
+}
+.overlayModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #15cf91;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: none;
+}
+.image-dog-modal{
+    width: 150px;
+}
+.modal-adopt{
+    width: 40vw;
+    height: 65vh;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 1rem;
+    display: none;
+}
+.block-info-dog{
+    display: flex;
+}
+.block-dog-modal{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.name-dog-modal{
+    font-size: 18px;
+    color: #00CA88;
+    font-weight: 600;
+    text-align: center;
+    margin: 0.5rem 0 ;
+}
+.block-info-modal{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 0 1rem;
+}
+.info-modal-title{
+    color: #00CA88;
+    font-size: 20px;
+    margin: 0.5rem 0;
+}
+.form-modal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-modal{
+    width: 75%;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid #6b6b6b;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-size: 18px;
+}
+.input-modal-year{
+    width: 20%;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid #6b6b6b;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-size: 18px;
+}
+.input-modal-email{
+    width: 96%;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid #6b6b6b;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-size: 18px;
+}
+.span-buttons-modal{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.span-buttons-modal p {
+    font-size: 18px;
+}
+.span-buttons-modal button{
+    width: 100px;
+    border: none;
+    border-radius: 40px;
+    background: #F2F2F2;
+    color: #575757;
+    font-size: 18px;
+    padding: 0.2rem;
+}
+.button-adopt-modal{
+    width: 100%;
+    background: #00CA88;
+    color: #fff;
+    font-size: 18px;
+    align-self: center;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 9;
+}
+.block-button-exit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.modal-obrigado{
+    width: 40vw;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 1rem;
+    display: none;
+}
+.block-obrigado{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.block-obrigado-title{
+    font-size: 30px;
+    color: #00CA88;
+    margin: 0.5rem 0;
+}
+.block-obrigado-text{
+    width: 95%;
+    margin: 0.3rem 0;
+}
