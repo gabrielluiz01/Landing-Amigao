@@ -49,6 +49,7 @@ header{
     text-decoration: none;
     margin: 0 1rem;
     color: #00CA88;
+    cursor: pointer;
 }
 .menu-link-home{
     font-size: 20px;
@@ -289,4 +290,17 @@ header{
 .block-obrigado-text{
     width: 95%;
     margin: 0.3rem 0;
+}
+.modal-voluntario{
+    width: 40vw;
+    height: 65vh;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 1rem;
+    display: none;
+}
+.modal-voluntario-info-title{
+    font-size: 25px;
+    color: #00CA88;
+    margin: 0.5rem 0;
 }

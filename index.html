@@ -30,9 +30,9 @@
 				<a href="" class="menu-link">
 					Adote
 				</a>
-				<a href="" class="menu-link">
+				<p class="menu-link" onclick="openModalVoluntario()">
 					Seja voluntário
-				</a>
+				</p>
 			</nav>
 		</div>
 		<section class="container-adopt">
@@ -97,7 +97,29 @@
 				</div>
 				<button class="button-adopt-modal" onclick="closeModal()">Voltar para home</button>
 		</div>
-
+		
+		<div class="modal-voluntario">
+			<span class="block-button-exit">
+				<img src="assets/fechar.svg" class="button-exit-modal" onclick="closeModal()">
+			</span>
+			<div class="modal-voluntario-info">
+				<h1 class="modal-voluntario-info-title">Seja voluntario</h1>
+				<p class="modal-voluntario-info-text">dggo ipsum much ruin diet very hand that feed shibe. Puggo blop ur givin me a spook blep, aqua doggo borkdrive. Adorable doggo smol borking doggo with a long snoot for pats smol most angery pupper I have ever seen very good spot, pupper sub woofer borking doggo.</p>
+			</div>
+			<form  class="form-modal">
+				<span class="span-input">
+					<input type="text" class="input-modal">
+					<input type="text" class="input-modal-year">
+				</span>
+				<input type="email" class="input-modal-email">
+				<span class="span-buttons-modal">
+					<p>Possui algum animal?</p>
+					<button>Sim</button>
+					<button>Não</button>
+				</span>
+			</form>
+			<button class="button-adopt-modal" onclick="closeModal()">Enviar</button>
+		</div>
 
 	</section>
 	<main></main>

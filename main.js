@@ -30,3 +30,7 @@ function changeModal(){
     document.querySelector('.modal-adopt').style.display = 'none'
     document.querySelector('.modal-obrigado').style.display = 'block'
 }
+function openModalVoluntario(){
+    document.querySelector('.overlayModal').style.display = 'flex'
+    document.querySelector('.modal-voluntario').style.display = 'block'
+}
