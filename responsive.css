@@ -8,6 +8,7 @@
         left: 0;
         bottom: 0;
         background-color: #00B77A;
+        z-index: 99;
     }
     .menu-link, .menu-link-home{
         z-index: 99;
@@ -19,6 +20,29 @@
     }
     .menu-hamburguer{
         display: block;
+    }
+}
+@media(max-width: 690px){
+    .block-info{
+        display: none;
+    }
+    .block-adopt{
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .span-buttons{
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+    .button-donation{
+        margin: 1rem 0;
+    }
+    .block-adopt-title{
+        font-size: 40px;
+    }
+    .block-adopt-text{
+        width: 60%;
     }
 }
 @media(max-width: 425px){
